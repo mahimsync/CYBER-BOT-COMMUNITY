@@ -1,4 +1,4 @@
-consmodulet fs = global.nodemodule["fs-extra"];
+const fs = global.nodemodule["fs-extra"];
 .exports.config = {
   name: "Obot",
   version: "1.0.1",
