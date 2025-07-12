@@ -3,7 +3,7 @@ module.exports.config = {
   name: "Obot",
   version: "1.0.1",
   hasPermssion: 0,
-  credits: "𝐂𝐘𝐁𝐄𝐑 ☢️_𖣘 -𝐁𝐎𝐓 ⚠️ 𝑻𝑬𝑨𝑴_ ☢️",
+  credits: "Mahim Islam",
   description: "goibot",
   commandCategory: "Noprefix",
   usages: "noprefix",
@@ -28,7 +28,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("কিস দিস না তোর মুখে দূর গন্ধ কয়দিন ধরে দাঁত ব্রাশ করিস নাই🤬", threadID);
    };
    
-    if ((event.body.toLowerCase() == "help") || (event.body.toLowerCase() == "help")) {
+    if ((event.body.toLowerCase() == "Help") || (event.body.toLowerCase() == "help")) {
      return api.sendMessage("type .help", threadID);
    };
   
